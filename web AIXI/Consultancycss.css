@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	    font-family: sans-serif;
+}
+.main{
+
+	display: flex;
+	background: transparent;
+	padding: 5px 100px;
+	  align-items: center;
+   justify-content: space-between;
+   position: sticky;
+   top: 0px;
+
+}
+.logo{
+
+}
+.navbar{
+}
+nav ul li{
+	display: inline-block;
+	text-transform: capitalize;
+	margin-right: 12px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 19px;
+	color: gray;
+	padding-bottom: 5px;
+}
+nav ul li a:hover{
+	color: #a1c435;
+	border-bottom: 2px solid #a1c435;
+
+}
+
+
+
+
+
+.bg{
+	width: 100%;
+	height: 50%;
+	margin-bottom: 5px;
+}
+
+.text{
+
+
+
+	position: absolute;
+	top: 200px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	color: white;
+}
+.text h1{
+	width: 100%;
+	padding: 20px 200px;
+	font-size: 50px;
+}
+.text p{
+	width: 100%;
+	font-size: 25px;
+	padding: 20px 200px;
+	line-height: 30px;
+}
+
+Button{
+	margin-left: 200px;
+	padding: 15px ;
+	border: none;
+    font-size: 16px;
+    color: white;
+	background-color:#a1c435 ;
+	margin-top: 20px;
+}
+Button:hover{
+	background-color: blue;
+}
+
+
+
+
+.pushpa{
+	width: 100%;
+	height: 100%;
+}
+.amber{
+	display: flex;
+	margin: 100px 200px;
+}
+.bacha{
+	width: 1400px;
+	margin-right: 20px;
+}
+.pic img{
+	margin-top: 140px;
+}
+.bacha h3{
+	font-size: 80px;
+	margin-bottom: 30px;
+
+}
+.bacha p{
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: .5px; 
+	
+}
+
+.talha{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.talha1{
+	text-align: center;
+	padding: 5%;
+	font-size: 20px;
+	color: black;
+	text-transform: capitalize;
+	background: white;
+}
+.talha2{
+	display: inline-flex;
+	margin: 0px  13%;
+	padding-bottom: 8%;
+}
+.box1{
+	width: 140px;
+	height: 140px;
+	border: 1px solid darkred;
+	margin-right: 30px;
+
+}
+.box1 img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+.c{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.help img{
+	width: 100%;
+}
+.help1{
+	width: 750px;
+	height: 300px;
+	margin: 90px 0px 50px 80px;
+	background: white;
+	position: absolute;
+	top: 0;
+}
+.help1 h2{
+	font-size: 35px;
+	margin: 20px 0px 0px 30px;
+}
+.help1 p{
+	font-size: 16px;
+	margin: 20px 30px;
+	line-height: 30px;
+}
+.help1 button{
+	background: #a1c435;
+	color: white;
+	font-size: 16px;
+	margin-left: 30px;
+	padding: 10px;
+	border: none;
+	font-weight: bold;
+}
+
+.help1 Button:hover{
+	background-color: blue;
+}
+
+
+.a1{
+   width: 100%;
+   height: 100%; 
+}
+.a2 p{
+	margin: 35px 0px 80px 70px;
+}
+table{
+	width: 25%;
+	margin: 70px 0px 0px 70px;
+	line-height: 25px;
+}
+pre hr{
+	margin-bottom: 50px;
+	width: 90%;
+	text-align: center;
+	margin-left: 70px;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 70px 50px 70px;
+}
+footer a{
+	color: gray;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: #a1c435;
+	
+}
