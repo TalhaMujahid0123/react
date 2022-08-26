@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background: #f2f2f2;
+	padding: 5px 100px;
+	  align-items: center;
+   justify-content: space-between;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+}
+nav ul li{
+	display: inline-block;
+	text-transform: capitalize;
+	margin-right: 12px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 19px;
+	color: gray;
+	padding-bottom: 5px;
+}
+nav ul li a:hover{
+	color: #a1c435;
+	border-bottom: 2px solid #a1c435;
+}
+
+
+
+
+
+.bg{
+	max-width: 100%;
+	height: 100%;
+	position: relative;
+}
+video{
+	width: 100%;
+}
+.text{
+	position: absolute;
+	top: 0px;
+	margin: 150px 0px 0px 200px;
+	color: white;
+
+}
+.text h1{
+	padding: 10px 100px;
+	font-size: 50px;
+
+}
+.text p{
+	font-size: 25px;
+	padding: 10px 100px;
+	line-height: 30px;
+
+}
+
+
+
+
+
+
+.a{
+	width: 100%;
+	height: 100%;
+	background: #f2f2f2;
+	border: 2px solid transparent;
+}
+.a1 h2{
+	text-align: center;
+	font-size: 35px;
+	color: black;
+	margin: 100px 0px 40px 0px ;
+	text-transform: capitalize;
+}
+.box{
+	margin: 30px 0px 30px 75px;
+	position: relative;
+}
+.card{
+	width: 160px;
+	height: 170px;
+	display: inline-block;
+	margin-right: 30px;
+	background: white;
+}
+.card:hover{
+	background: orange;
+}
+.card:first-child img{
+	width: 100%;
+	height: 130px;
+}
+.card:last-child img{
+	width: 100%;
+	height: 130px;
+	position: absolute;
+	bottom: 0;
+}
+.card img:last-child:hover{
+	
+}
+.card p{
+	font-size: 18px;
+	text-align: center;
+	color: gray;
+	font-weight: bold;
+}
+.card p:hover{
+	
+}
+.box2{
+	margin: 0px 0px 100px 75px;
+	position: relative
+}
+.card2{
+	width: 160px;
+	height: 170px;
+	display: inline-block;
+	margin-right: 30px;
+	background: white;
+}
+.card2 img{
+	width: 100%;
+	height: 130px;
+}
+.card2 p{
+	font-size: 18px;
+	text-align: center;
+}
+
+
+
+
+.talha{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.talha1{
+	text-align: center;
+	padding: 5%;
+	font-size: 20px;
+	color: black;
+	text-transform: capitalize;
+	background: white;
+}
+.talha2{
+	display: inline-flex;
+	margin: 0px  130px;
+	padding-bottom: 8%;
+}
+.box1{
+	width: 140px;
+	height: 140px;
+	border: 1px solid darkred;
+	margin-right: 30px;
+
+}
+.box1 img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+.c{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.help img{
+	width: 100%;
+}
+.help1{
+	width: 750px;
+	height: 300px;
+	margin: 90px 0px 50px 80px;
+	background: white;
+	position: absolute;
+	top: 0;
+}
+.help1 h2{
+	font-size: 35px;
+	margin: 20px 0px 0px 30px;
+}
+.help1 p{
+	font-size: 16px;
+	margin: 20px 30px;
+	line-height: 30px;
+}
+.help1 button{
+	background: orange;
+	color: white;
+	font-size: 16px;
+	margin-left: 30px;
+	padding: 10px;
+	border: none;
+	font-weight: bold;
+}
+
+
+
+
+.a1{
+   width: 100%;
+   height: 100%; 
+}
+.a2 p{
+	margin: 35px 0px 80px 70px;
+}
+table{
+	margin: 70px 0px 0px 70px;
+	line-height: 25px;
+}
+pre hr{
+	margin-bottom: 50px;
+	width: 90%;
+	text-align: center;
+	margin-left: 70px;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 70px 50px 70px;
+}
